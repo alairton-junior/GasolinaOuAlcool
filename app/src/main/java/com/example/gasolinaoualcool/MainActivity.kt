@@ -129,7 +129,7 @@ fun FuelCalculatorScreen(modifier: Modifier = Modifier) {
             },
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.secondary, // Cor de fundo do botão
-                contentColor = MaterialTheme.colorScheme.primary // Cor do texto no botão
+               contentColor = androidx.compose.ui.graphics.Color(0xFFFFFFFF) // Cor do texto no botão
             )
         ) {
             Text("Calcular")
